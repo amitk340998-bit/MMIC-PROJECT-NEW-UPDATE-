@@ -199,3 +199,4 @@ CREATE TABLE IF NOT EXISTS activity_log (
     details TEXT,
     created_at TEXT DEFAULT (datetime('now'))
 );
+CREATE TABLE IF NOT EXISTS setting (key TEXT PRIMARY KEY, value TEXT);
